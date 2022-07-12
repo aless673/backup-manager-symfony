@@ -3,9 +3,9 @@
 namespace BM\BackupManagerBundle\DependencyInjection;
 
 use League\Flysystem\Adapter\Ftp;
-use League\Flysystem\Adapter\Local;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;
 use League\Flysystem\Dropbox\DropboxAdapter;
+use League\Flysystem\Local\LocalFilesystemAdapter as Local;
 use Mhetreramesh\Flysystem\BackblazeAdapter;
 use Srmklive\Dropbox\Adapter\DropboxAdapter as Dropbox2Adapter;
 use League\Flysystem\Rackspace\RackspaceAdapter;
